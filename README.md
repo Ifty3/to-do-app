@@ -17,13 +17,32 @@ The entire application is packaged inside a Docker image so it can run on any sy
 
 http://localhost:3000
 
-🐳 Run with Docker 1️⃣ Build image docker build -t todo-app . 2️⃣ Run container docker run -p 3000:3000 todo-app
+🐳 Run with Docker 
 
-☁️ Docker Hub Deployment 🔐 Login docker login 🏷️ Tag image docker tag todo-app sufian87/todo-app 🚀 Push image docker push sufian87/todo-app
+1️⃣ Build image 
+docker build -t todo-app . 
 
-📥 Pull & Run docker pull yourusername/todo-app docker run -p 3000:3000 yourusername/todo-app
+2️⃣ Run container 
+docker run -p 3000:3000 todo-app
 
-🧩 Docker Commands Used docker build → Create image docker run → Run container docker ps → Check running containers docker stop → Stop container docker login → Login to Docker Hub docker push → Upload image docker pull → Download image
+☁️ Docker Hub Deployment 
+
+🔐 Login 
+docker login 
+
+🏷️ Tag image 
+docker tag todo-app sufian87/todo-app 
+
+🚀 Push image 
+docker push sufian87/todo-app
+
+📥 Pull & Run 
+
+docker pull sufian87/todo-app 
+docker run -p 3000:3000 sufian87/todo-app
+
+🧩 Docker Commands Used 
+docker build → Create image docker run → Run container docker ps → Check running containers docker stop → Stop container docker login → Login to Docker Hub docker push → Upload image docker pull → Download image
 
 🌟 Features
 
