@@ -1,5 +1,5 @@
 # to-do-app
-o-Do Application (Node.js + Docker)
+To-Do Application (Node.js + Docker)
 
 🚀 Project Overview
 
